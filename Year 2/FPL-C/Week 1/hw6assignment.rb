@@ -7,7 +7,7 @@ class MyPiece < Piece
 	# The constant All_My_Pieces should be declared here
 	
 	All_My_Pieces = [rotations([[0, 0], [-1, 0], [-1, -1], [0, -1], [1, 0]]),
-	                [[[0, 0], [-1, 0], [-2, 0], [1, 0], [2, 0]],
+					[[[0, 0], [-1, 0], [-2, 0], [1, 0], [2, 0]],
 					[[0, 0], [0, -1], [0, -2], [0, 1], [0, 2]]],
 					rotations([[0, 0], [0, -1], [1, 0]])] + All_Pieces
 
